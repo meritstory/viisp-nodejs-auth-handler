@@ -17,6 +17,7 @@ export interface IidentityResponse {
   birthdate: string;
   sex: Sex;
   companyName?: string;
+  personalIdentityCode?: string;
 }
 
 interface ViispAuthClientCertOptions {

@@ -105,6 +105,7 @@ export const getValidatedIdentity = (identity: any): IidentityResponse => {
   return {
     firstName: userInfo.firstName,
     lastName: userInfo.lastName,
+    personalIdentityCode: identityData.personalIdentityCode,
     ...extraData,
   };
 };
